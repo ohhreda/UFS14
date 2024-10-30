@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corso di Public Speaking - Diventa un Oratore Efficace</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-4xl font-bold text-gray-800">Padroneggia l'Arte del Public Speaking</h1>
+            <p class="text-xl text-gray-600 mt-2">Impara dai migliori esperti madrelingua</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">Trasforma il Tuo Modo di Parlare in Pubblico</h2>
+                    <p class="text-xl mb-8">Accedi a lezioni online, guide scaricabili e supporto personalizzato dei nostri esperti</p>
+                    <div class="bg-yellow-400 inline-block py-2 px-6 rounded-lg text-black font-bold hover:bg-yellow-300 transition">
+                        Inizia la Prova Gratuita di 30 Giorni
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <img src="/api/placeholder/600/400" alt="Public Speaking Course" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center mb-12">Cosa Include il Corso</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">📚</div>
+                    <h4 class="font-bold mb-2">Lezioni Online</h4>
+                    <p>Accesso illimitato a video lezioni professionali</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">💬</div>
+                    <h4 class="font-bold mb-2">Supporto in Chat</h4>
+                    <p>Assistenza diretta dai nostri docenti madrelingua</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">📥</div>
+                    <h4 class="font-bold mb-2">Guide Scaricabili</h4>
+                    <p>Materiale didattico completo e esercizi pratici</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center mb-12">Cosa Dicono i Nostri Studenti</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="italic mb-4">"Grazie a questo corso ho superato la mia paura di parlare in pubblico. Ora tengo presentazioni con sicurezza!"</p>
+                    <div class="font-bold">Marco R.</div>
+                    <div class="text-gray-600">Manager Marketing</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="italic mb-4">"I docenti sono fantastici e sempre disponibili. Ho imparato tecniche che uso ogni giorno nel mio lavoro."</p>
+                    <div class="font-bold">Laura B.</div>
+                    <div class="text-gray-600">Sales Director</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-8">Inizia Oggi</h3>
+            <div class="max-w-md mx-auto bg-gray-50 rounded-lg p-8">
+                <div class="text-4xl font-bold mb-4">€14,90<span class="text-xl font-normal">/mese</span></div>
+                <ul class="text-left mb-8">
+                    <li class="mb-2">✅ Accesso completo alle video lezioni</li>
+                    <li class="mb-2">✅ Guide e materiali scaricabili</li>
+                    <li class="mb-2">✅ Supporto chat con docenti madrelingua</li>
+                    <li class="mb-2">✅ 1 mese di prova gratuita</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="max-w-md mx-auto">
+                <h3 class="text-2xl font-bold text-center mb-8">Inizia la Tua Prova Gratuita</h3>
+                <form action="https://api.getresponse.com/v3/contacts" method="POST" class="bg-white p-8 rounded-lg shadow">
+                    <input type="hidden" name="campaign_token" value="X">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2" for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required class="w-full p-2 border rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2" for="cognome">Cognome</label>
+                        <input type="text" id="cognome" name="cognome" required class="w-full p-2 border rounded">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2" for="email">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full p-2 border rounded">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded font-bold hover:bg-blue-700 transition">
+                        Inizia Ora
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Corso di Public Speaking. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
